@@ -1,24 +1,28 @@
-.body{ 
-background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
-}
-
-
-#navbar {
-    list-style-type: none;
+/* Basic styles - modify as needed */
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    background-color: #EEEEEE;
 }
 
-ul#navbar li {
-    float:left;
+header {
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px;
 }
 
-ul#navbar li a {
-    display: block;
-    color: #000000;
-    font-weight:bold;
-    padding: 8px 16px;
-    text-decoration: none;
+#projects {
+    padding: 20px;
+}
+
+.project {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 10px;
 }
