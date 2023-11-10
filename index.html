@@ -9,21 +9,38 @@
     <header>
         <h1>Behaylu</h1>
         <p>Web Developer</p>
+        <button onclick="filterProjects('web')">Web Development</button>
+        <button onclick="filterProjects('mobile')">Mobile Apps</button>
+        <button onclick="filterProjects('other')">Other</button>
+
     </header>
     
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>Project 1</h3>
-            <p>Description of Project 1</p>
-        </div>
+<section id="projects">
+    
+    <!-- Modal -->
+   <div id="projectModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="project" data-category="web">
+           <h2>Web development</h2>
+           <p>Project Description and Details</p>
+         </div>
+         <div class="project" data-category="Mobile Apps">
+         <h2>Mobile Apps</h2>
+        <p>Project Description and Details</p>
+         </div>
+        
+    </div>
+    </div>
+
+
         <!-- More projects can be added similarly -->
-    </section>
+</section>
     
     <footer>
         <p>Contact: BehayluDereje012@gmail.com.com</p>
     </footer>
     
-    <script src="scripts.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
