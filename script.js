@@ -39,3 +39,10 @@ window.onclick = function (event) {
         modal.style.display = 'none';
     }
 };
+
+const contactForm = document.getElementById('contactForm');
+contactForm.addEventListener('submit', (event) => {
+    event.preventDefault();
+    // You'd need to add code here to handle the form submission, such as sending an email or storing in a database.
+    // This might involve using AJAX or other techniques.
+});
