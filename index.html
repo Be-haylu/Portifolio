@@ -2,25 +2,27 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="author" content="behaylu">
     <title>Behaylu - Portfolio</title>
-    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="css/Style.css">
+    <script src="js/script.js"></script>
+    <link rel="icon" href="asset/picture.png" type="image/x-icon">
 </head>
 <body>
-    <header>
-        <h1>Behaylu</h1>
-        <p> Embedded system enginner</p>
+<header>
+        <h1>Behaylu(MD)</h1>
+        <p> MD,Embedded system enginner and web developer </p>
         <button onclick="filterProjects('web')">Web Development</button>
         <button onclick="filterProjects('mobile')">Mobile Apps</button>
         <button onclick="filterProjects('other')">Other</button>
 
-    </header>
+</header>
     
 <section id="projects">
     
     <!-- Modal -->
    <div id="projectModal" class="modal">
     <div class="modal-content">
-        <span class="close">&times;</span>
          <div class="project" data-category="web">
               <h2>Web development</h2>
               <p>Project Description and Details</p>
@@ -42,17 +44,17 @@
         <!-- More projects can be added similarly -->
 </section>
     
-    <footer>
-        <p>Contact: BehayluDereje012@gmail.com.com</p>
-        <form id="contactForm">
+<footer>
+ <p>Contact: BehayluDereje012@gmail.com.com</p>
+<form id="contactForm">
            <input type="text" placeholder="Name">
            <input type="email" placeholder="Email">
            <textarea placeholder="Message"></textarea>
            <button type="submit">Send</button>
         </form>
 
-    </footer>
+</footer>
     
-<script src="script.js"></script>
+
 </body>
 </html>
